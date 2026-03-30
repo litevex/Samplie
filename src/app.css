@@ -1,0 +1,52 @@
+:root {
+    --accent: rgb(253, 158, 245);
+    --text: rgb(235, 235, 235);
+    --text-info: rgba(235, 235, 235, 0.7);
+    --border: rgba(255, 255, 255, 0.06);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+span, p, img {
+    cursor: default;
+    user-select: none;
+    --webkit-user-drag: none;
+}
+
+body {
+    background: rgba(31, 31, 31, 0.0);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+}
+
+body, button, input, select, textarea {
+    font-family: "Segoe UI";
+    font-size: 12px;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.08);
+    border: none;
+    padding: 4px 8px;
+    color: rgb(235, 235, 235);
+    border-radius: 2px;
+}
+
+input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.10);
+    /* box-shadow: inset 0px -1px 0px var(--accent); */
+}
+
+.flat-icon {
+    color: rgba(255, 255, 255, 0.8);
+}
