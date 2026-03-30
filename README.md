@@ -1,3 +1,7 @@
+# Samplie
+
+VERY WORK IN PROGRESS NOT VERY USABLE
+
 # SveltronKit
 
 A minimal template for building Electron apps with SvelteKit.
